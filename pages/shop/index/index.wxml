@@ -1,0 +1,55 @@
+<!--背景效果-->
+<image src="https://yhtx.itianc.com/wxxcx/57b6c21fa7290.jpg" mode="aspectFill" class="canui-head-vague"></image>
+<view class="canui-head-gradient"></view>
+
+<!--标题栏区域-->
+<view class="canui-head-custom" style="top:{{StatusBar}}px;">
+    <view class='canui-shop-title' bindtap='btnback'>
+        <text class="icon-back"></text> <txet>XXXX旗舰店</txet>
+    </view>
+    <view class="canui-shop-synopsis text-sm">
+        <text class="canui-xzwz">店铺简介店铺简介店铺简介店铺简介店铺简介店铺简介店铺简介店铺简介店铺简介店铺简介店铺简介店铺简介</text>
+    </view>
+</view>
+
+<!--关注按钮-->
+<view class="canui-head-box" style="top:{{StatusBar}}px;">
+    <navigator open-type="navigate" hover-class='none' url="/pages/shop/index/details">
+        <text class="icon-vipcard"></text> 详情
+    </navigator>
+</view>
+
+<!--搜索框-->
+<view class="cu-bar search" style="margin-top:{{StatusBar}}px;">
+    <view class='search-form round'>
+        <text class="icon-search"></text>
+        <input type="text" placeholder="搜索店铺内的商品" confirm-type="search" placeholder-class="canui-input-placeholder"></input>
+    </view>
+    <view class='action'>
+        <button class='cu-btn shadow-blur round canui-btn-wxjn' bindtap="search">搜索</button>
+    </view>
+</view>
+
+<!--菜单导航栏-->
+<scroll-view scroll-x class="nav text-left canui-shop-table">
+    <view wx:for="{{SortMenu}}" wx:key class="cu-item {{item.id==TabCur?'cur':''}}" bindtap='tabSelect' data-id="{{item.id}}">
+        {{item.name}}
+    </view>
+</scroll-view>
+
+<!--商品列表-->
+<view class='nav-list canui-shop-goods-list'>
+    <navigator wx:for="{{ShopList}}" wx:key="{{item.index}}" class="nav-li" open-type="navigate" hover-class='none' url="/pages/shop/goods/details">
+        <image src="{{item.image}}" mode="aspectFill"></image>
+        <view class="nav-li-box">
+            <view class="nav-title canui-xzwz text-sm">{{item.title}}</view>
+            <view class="shop-zx">
+                <text class="text-price text-red text-xs">{{item.price}} </text>
+                <text class="text-gray text-sm">{{item.sales}}人已兑换</text>
+            </view>
+        </view>
+    </navigator>
+</view>
+
+<view class='cu-tabbar-height'></view>
+

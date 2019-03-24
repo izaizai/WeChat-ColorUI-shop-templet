@@ -1,0 +1,53 @@
+page {
+    padding-top: 50px;
+    padding-bottom:170rpx;
+}
+.cu-custom{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.cu-custom .cu-bar{
+    padding-right:inherit;
+    background-image:linear-gradient(45deg, #ff9700, #ed1c24);
+}
+.box{
+    position: absolute;
+    padding-bottom: 150rpx;
+    top: 64px;
+    width: 100%;
+}
+.cu-list{
+    position: relative;
+}
+.cu-list.menu>.cu-item{
+    padding: 30rpx;
+}
+.cu-list .cu-item .content view text{
+    margin-left: 20rpx;
+}
+.cu-list.menu>.cu-item .content view .cu-tag{
+    margin-left:15rpx;
+    margin-bottom:8rpx;
+    height:28rpx;
+    font-size:19rpx;
+}
+.cu-list.menu>.cu-item .action{
+    margin-left:60rpx;
+    margin-top:50rpx;
+}
+.canui-color-gradual{
+    padding:0 90rpx;
+}
+.canui-color-gradual .icon-add{
+    margin-right:12rpx;
+    font-size:35rpx;
+}
+
+.canui-foor-fixed{
+    text-align:center;
+    bottom:20rpx;
+    background:#f1f1f1;
+}
+
+

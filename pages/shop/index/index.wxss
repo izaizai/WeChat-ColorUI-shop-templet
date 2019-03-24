@@ -1,0 +1,174 @@
+
+/*-------背景图片超模糊效果-------*/
+.canui-head-vague{
+    position: absolute;
+    width: 100%;
+    height: 550rpx;
+    top: 0;
+    filter: url(blur.svg#blur);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);
+}
+.canui-head-gradient{
+    position: absolute;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.01), rgba(241, 241, 241, 1));
+    width: 100%;
+    height: 600rpx;
+    top: 0;
+}
+
+/*-------标题栏-------*/
+.canui-head-custom{
+    position: relative;
+    width: 100%;
+    top: 0;
+    color: #fff;
+    height:100rpx;
+}
+.canui-shop-title{
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    max-width:100%;
+    padding:10rpx;
+    padding-right:320rpx;
+}
+.canui-shop-title:first-child{
+    margin-left:20rpx;
+    font-size:33rpx;
+}
+.canui-shop-title:last-child{
+    margin-right:30rpx;
+}
+.canui-shop-title:first-child>text[class*="icon"] {
+    margin-left:-0.3em;
+    margin-right:0.3em;
+    margin-top:3rpx;
+}
+.canui-shop-title > text[class*="icon"], .canui-shop-title > view[class*="icon"] {
+    font-size:36rpx;
+}
+.canui-shop-synopsis{
+    padding:0 30rpx;
+    color: #f1f1f1;
+}
+
+
+/*-------关注按钮-------*/
+.canui-head-box{
+    position:absolute;
+    top:26px;
+    right:192rpx;
+    background:rgba(0,0,0,0.2);
+    border-radius:20px;
+    padding:4.5px 10px;
+    border:1px solid rgba(255,255,255,0.3);
+    font-size:28rpx;
+    color: #f1f1f1;
+}
+.canui-head-box text{
+    font-size:15px;
+    margin-right:3rpx;
+}
+
+/*-------搜索框区域-------*/
+.cu-bar{
+    padding-top:15rpx;
+}
+.cu-bar .search-form{
+    background:rgba(241,241,241,0.3);
+    color:#f1f1f1;
+}
+.cu-bar .search-form [class*="icon"]{
+    margin:0 0.5em 0 0.4em;
+    font-size:38rpx;
+}
+.cu-bar .search-form input{
+    color:#f1f1f1;
+    font-size:26rpx;
+}
+.canui-input-placeholder{
+    color:#f1f1f1;
+}
+.canui-btn-wxjn{
+    color: #f1f1f1;
+}
+.canui-btn-wxjn:not([class*="bg-"]) {
+    background:rgba(241,241,241,0.3);
+}
+
+/*-------菜单导航栏-------*/
+.canui-shop-table{
+    padding:15rpx 15rpx;
+}
+.nav .cu-item {
+    height:60rpx;
+    line-height:60rpx;
+    margin:0 10rpx;
+    padding:0 30rpx;
+    color: #f1f1f1;
+}
+.nav .cu-item.cur{
+    border-bottom:0;
+    background:rgba(241,241,241,0.3);
+    border-radius:55px;
+    color: rgba(254,0,0,0.8);
+}
+
+/*-------商品列表-------*/
+.canui-shop-goods-list{
+    padding:10rpx 20rpx 0px;
+}
+.canui-shop-goods-list .nav-li{
+    background-image:initial;
+    background-size:initial;
+    background-position:initial;
+    background:initial;
+    padding:0;
+    width:345rpx;
+    margin:0 5rpx 20rpx;
+    border-radius:0;
+}
+.canui-shop-goods-list .nav-li image{
+    width:100%;
+    height:345rpx;
+    z-index:99999;
+    border-radius:15rpx 15rpx 0 0;
+}
+.canui-shop-goods-list .nav-li .nav-li-box{
+    position: relative;
+    background: #Ffff;
+    padding: 10rpx 20rpx;
+    border-radius: 0 0 15rpx 15rpx;
+    box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+    top: -6rpx;
+    z-index: 0;
+}
+.canui-shop-goods-list .nav-li .nav-li-box .nav-title {
+    font-size: 28 rpx;
+}
+.canui-shop-goods-list .nav-li text{
+    position: relative;
+    right:initial;
+    top:initial;
+    font-size:inherit;
+    width:inherit;
+    height:initial;
+    text-align:initial;
+    line-height:inherit;
+}
+.canui-shop-goods-list .nav-li .shop-zx{
+    position: relative;
+    padding:10rpx 0;
+}
+.canui-shop-goods-list .nav-li .shop-zx .text-sm{
+    font-size:20rpx;
+}
+.canui-shop-goods-list .nav-li .shop-zx .text-price{
+    font-size:30rpx;
+    margin-right:8rpx;
+}
+

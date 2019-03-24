@@ -1,0 +1,181 @@
+page {
+    padding-top: 50px;
+    padding-bottom:170rpx;
+}
+.cu-custom{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.cu-custom .cu-bar{
+    padding-right:inherit;
+    background-image:linear-gradient(90deg, #FA9C05, #F36302);
+}
+.box{
+    position: absolute;
+    top: 64px;
+    width: 100%;
+    padding-bottom: 170rpx;
+}
+.canui-order-details-head{
+    background-image:linear-gradient(90deg, #FA9C05, #F36302);
+    color:#F1f1f6;
+    height:230rpx;
+    padding-top:20rpx;
+}
+.canui-order-details-head .cu-list.menu>.cu-item{
+    background:initial;
+}
+.canui-order-details-head .cu-list .cu-item .action{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:142rpx;
+    height:92rpx;
+}
+/*待付款*/
+.canui-order-details-head .cu-list .cu-item .canui-status-1{
+    background-image: url("https://cdn.nlark.com/yuque/0/2019/png/285274/1553229206281-assets/web-upload/97a88c75-0177-4409-9756-d3d93527391f.png");
+}
+/*待发货*/
+.canui-order-details-head .cu-list .cu-item .canui-status-2{
+    background-image: url("https://cdn.nlark.com/yuque/0/2019/png/285274/1553229206281-assets/web-upload/12edf711-8c22-44e0-898b-2b7e6a6fc23d.png");
+}
+/*待收货*/
+.canui-order-details-head .cu-list .cu-item .canui-status-3{
+    background-image: url("https://cdn.nlark.com/yuque/0/2019/png/285274/1553229207224-assets/web-upload/82196039-e8e9-4a6b-b889-e8ca614cd030.png");
+}
+/*已完成*/
+.canui-order-details-head .cu-list .cu-item .canui-status-4{
+    background-image: url("https://cdn.nlark.com/yuque/0/2019/png/285274/1553229206282-assets/web-upload/1b6678c7-8cf3-4a4b-9cd5-50109e2f724f.png");
+    width:112rpx;
+}
+/*已取消*/
+.canui-order-details-head .cu-list .cu-item .canui-status-5{
+    background-image: url("https://cdn.nlark.com/yuque/0/2019/png/285274/1553229207158-assets/web-upload/f6ae0024-dde8-45cc-aaec-70b8a841701f.png");
+    width:112rpx;
+}
+.canui-card-fiex-radius-box{
+    position:absolute;
+    top:125rpx;
+    width:100%;
+    z-index:9;
+}
+.canui-card-fiex-radius-box .cu-list{
+    border-radius:18rpx;
+    box-shadow:0 3rpx 6rpx rgba(0, 0, 0, 0.1);
+}
+.canui-card-fiex-radius-box .cu-list.menu>.cu-item{
+    padding:30rpx;
+}
+.canui-goods-box{
+    padding-top:100rpx;
+    position: relative;
+    z-index:0;
+}
+.canui-card-order{
+    padding:0 20rpx;
+}
+.canui-card-order .canui-order-item{
+    position: relative;
+    margin-bottom:30rpx;
+    padding:20rpx;
+}
+.head-title-box .icon-shop{
+    margin-right:10rpx;
+}
+.head-title-box .icon-right{
+    margin-left:5rpx;
+}
+.canui-order-item .cu-list.menu-avatar>.cu-item{
+    padding:0;
+    padding-left:110rpx;
+}
+.canui-order-item .cu-list.menu-avatar>.cu-item>.cu-avatar{
+    left:0rpx;
+}
+.canui-order-item .cu-list .cu-item .canui-xzwz{
+    -webkit-line-clamp:2;
+}
+.canui-order-item .cu-list.menu>.cu-item .content{
+    font-size:27rpx;
+    margin-right:40rpx;
+}
+.canui-order-item .cu-list.menu-avatar>.cu-item .action {
+    text-align:right;
+    margin-top:-10rpx;
+}
+.canui-order-item .cu-list.menu>.cu-item .action .text-price{
+    font-size:28rpx;
+}
+.canui-order-item .order-price-box{
+    text-align:right;
+    font-size:26rpx;
+}
+.order-price-log{
+    padding:0 30rpx;
+    padding-bottom:10rpx;
+    margin-top:-30rpx;
+}
+.order-price-log .log-list{
+    padding:5rpx 0;
+}
+.order-price-log-zj{
+    padding:20rpx 30rpx;
+    background:#fafafa;
+}
+.order-address-box .cu-list.menu>.cu-item{
+    padding:30rpx;
+}
+.order-address-box .cu-list .cu-item .content view text{
+    margin-left: 20rpx;
+}
+
+.order-details-log{
+    padding:0 30rpx;
+}
+.order-details-log .order-menu-list{
+    padding:10rpx 0;
+}
+.order-details-log .order-menu-list .log-list{
+    padding:10rpx 0;
+}
+.order-details-log .order-menu-list .log-list text + text{
+    margin-left:20rpx;
+}
+
+.order-contact-box{
+    padding:0 30rpx;
+}
+.order-contact-box .contact-table{
+    text-align:center;
+    padding:20rpx 0;
+}
+.order-contact-box .contact-table text{
+    font-size:34rpx;
+}
+.order-contact-box .contact-table + .contact-table{
+    border-left: 1px solid #f1f1f1;
+}
+
+.box .order-price-log-zj + .order-price-log-zj{
+    padding-top: 0;
+}
+.order-btn-box{
+    height:100rpx;
+}
+.order-btn-box .margin-tb-sm{
+    margin-bottom:0;
+}
+.order-btn-box .margin-tb-sm .cu-btn{
+    font-size:24rpx;
+}
+.order-btn-box .margin-tb-sm .cu-btn[class*="line"]::after {
+    /*按钮边框大小*/
+    border: 3rpx solid currentColor;
+}
+.order-btn-box .margin-tb-sm .line-gray{
+    color: #666;
+}
+.order-btn-box .margin-tb-sm + .margin-tb-sm{
+    margin-left: 10rpx;
+}

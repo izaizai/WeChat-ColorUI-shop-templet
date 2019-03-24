@@ -1,0 +1,12 @@
+<!--状态栏区域-->
+<view class="cu-custom" style="height:{{CustomBar}}px;">
+    <view class="cu-bar fixed none-bg text-white bg-img" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+        <navigator class='action canui-head-title' open-type="navigateBack" delta="1" hover-class="none">
+            <text class='icon-back'></text> 易汇天下
+        </navigator>
+    </view>
+</view>
+
+<view class="box" style="top: {{CustomBar}}px;">
+    <image src="https://image.weilanwl.com/img/4x3-1.jpg"></image>
+</view>

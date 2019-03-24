@@ -1,0 +1,68 @@
+<!--状态栏区域-->
+<view class="cu-custom" style="height:{{CustomBar}}px;">
+    <view class="cu-bar fixed none-bg text-white bg-img" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+        <navigator class='action canui-head-title' open-type="navigateBack" hover-class="none">
+            <text class='icon-back'></text> 我的订单
+        </navigator>
+    </view>
+</view>
+
+<view class="box" style="top: {{CustomBar}}px;">
+
+    <scroll-view scroll-x class="bg-white nav">
+        <view class='flex text-center'>
+            <view class="cu-item flex-sub {{item.id==TabCur?'text-red cur':''}}" wx:for="{{SortMenu}}" wx:key="item.id" bindtap='tabSelect' data-id="{{item.id}}">
+                {{item.name}}
+            </view>
+        </view>
+    </scroll-view>
+
+    <view class="canui-card-order margin-top">
+
+        <view class="canui-order-item bg-white">
+            <view class="head-title-box">
+                <text class="icon-shop"></text>
+                <text>某某某旗舰店铺</text>
+                <text class="icon-right"></text>
+                <text class="text-right text-red canui-text-right">测试按钮</text>
+            </view>
+            <navigator open-type="navigate" hover-class='none' url="/pages/order/details/index">
+                <view class="cu-list menu menu-avatar">
+                    <view class="cu-item">
+                        <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></view>
+                        <view class='content canui-xzwz tow'>商品名称商品名称商品名称商品名称商品名称商品名称</view>
+                        <view class='action'>
+                            <view class='text-price'>20.00</view>
+                            <view class="text-xs text-right text-gray">x1</view>
+                        </view>
+                    </view>
+                    <view class="cu-item">
+                        <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></view>
+                        <view class='content canui-xzwz tow'>商品名称商品名称商品名称商品名称商品名称商品名称</view>
+                        <view class='action'>
+                            <view class='text-price'>20.00</view>
+                            <view class="text-xs text-right text-gray">x1</view>
+                        </view>
+                    </view>
+                </view>
+            </navigator>
+            <view class="order-price-box">
+                共2件商品 合计：<text class="text-price">10.00</text>
+            </view>
+            <view class="grid col-4 flex justify-end order-btn-box">
+                <view class='margin-tb-sm text-center'>
+                    <button class='cu-btn round line-gray shadow'>测试按钮</button>
+                </view>
+                <view class='margin-tb-sm text-center'>
+                    <button class='cu-btn round line-gray shadow'>查看物流</button>
+                </view>
+                <view class='margin-tb-sm text-center'>
+                    <button class='cu-btn round line-red shadow'>确认收货</button>
+                </view>
+            </view>
+        </view>
+
+    </view>
+
+</view>
+

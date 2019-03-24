@@ -1,0 +1,21 @@
+page {
+    padding-top: 50px;
+    padding-bottom:170rpx;
+}
+.cu-custom{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.cu-custom .cu-bar{
+    padding-right:inherit;
+    background-image:linear-gradient(45deg, #ff9700, #ed1c24);
+}
+.box{
+    position: absolute;
+    top: 64px;
+    width: 100%;
+}
+.cu-list.menu-avatar>.canui-jsd{
+    padding-left:30rpx;
+}

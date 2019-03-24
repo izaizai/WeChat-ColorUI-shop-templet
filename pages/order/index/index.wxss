@@ -1,0 +1,74 @@
+page {
+    padding-top: 50px;
+    padding-bottom:170rpx;
+}
+.cu-custom{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.cu-custom .cu-bar{
+    padding-right:inherit;
+    background-image:linear-gradient(45deg, #ff9700, #ed1c24);
+}
+.box{
+    position: absolute;
+    top: 64px;
+    width: 100%;
+}
+
+.canui-card-order{
+    padding:0 20rpx;
+}
+.canui-card-order .canui-order-item{
+    position: relative;
+    margin-bottom:30rpx;
+    padding:20rpx;
+}
+.head-title-box .icon-shop{
+    margin-right:10rpx;
+}
+.head-title-box .icon-right{
+    margin-left:5rpx;
+}
+.canui-order-item .cu-list.menu-avatar>.cu-item{
+    padding:0;
+    padding-left:110rpx;
+}
+.canui-order-item .cu-list.menu-avatar>.cu-item>.cu-avatar{
+    left:0rpx;
+}
+.canui-order-item .cu-list .cu-item .canui-xzwz{
+    -webkit-line-clamp:2;
+}
+.canui-order-item .cu-list.menu>.cu-item .content{
+    font-size:27rpx;
+    margin-right:40rpx;
+}
+.canui-order-item .cu-list.menu-avatar>.cu-item .action {
+    text-align:right;
+    margin-top:-10rpx;
+}
+.canui-order-item .cu-list.menu>.cu-item .action .text-price{
+    font-size:28rpx;
+}
+.canui-order-item .order-price-box{
+    text-align:right;
+    font-size:26rpx;
+}
+.canui-order-item .order-btn-box .margin-tb-sm{
+    margin-bottom:0;
+}
+.canui-order-item .order-btn-box .margin-tb-sm .cu-btn{
+    font-size:24rpx;
+}
+.canui-order-item .order-btn-box .margin-tb-sm .cu-btn[class*="line"]::after {
+    /*按钮边框大小*/
+    border: 3rpx solid currentColor;
+}
+.canui-order-item .order-btn-box .margin-tb-sm .line-gray{
+    color: #666;
+}
+.canui-order-item .order-btn-box .margin-tb-sm + .margin-tb-sm{
+    margin-left: 10rpx;
+}

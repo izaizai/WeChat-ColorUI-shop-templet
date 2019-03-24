@@ -1,0 +1,163 @@
+page {
+    padding-top: 50px;
+    padding-bottom:20rpx;
+}
+.cu-custom{
+    position: absolute;
+    width:100%;
+}
+.head-title{
+    margin: 0 auto;
+}
+.cu-custom .cu-bar{
+    padding-right:inherit;
+    background-image:linear-gradient(45deg, #ff9700, #ed1c24);
+}
+.bg-gradual-green {
+    background-image:linear-gradient(45deg, #ff9700, #ed1c24);
+}
+.text-green, .line-green, .lines-green {
+    color:#e45c5c;
+}
+
+checkbox::before {
+    margin-top: -7px;
+    right: 4.5px;
+    font-size: 20rpx;
+}
+checkbox .wx-checkbox-input {
+    width: 16px;
+    height: 16px;
+}
+
+.canui-kong{
+    padding-top:100rpx;
+}
+.canui-kong-icon{
+    width:260rpx;
+    height:260rpx;
+    line-height:220rpx;
+    margin:0 auto;
+    border-radius:200rpx;
+    margin-bottom:30rpx;
+}
+.canui-kong-icon text{
+    font-size:160rpx;
+}
+.canui-kong .bg-gradual-green{
+    margin:0 auto;
+}
+
+
+.canui-card-order{
+    padding:0 20rpx;
+}
+.canui-card-order .canui-order-item{
+    position: relative;
+    margin-bottom:30rpx;
+    padding:20rpx;
+}
+.head-title-box .icon-shop{
+    margin-right:10rpx;
+}
+.head-title-box checkbox{
+    top:-1rpx;
+    margin-right:20rpx;
+}
+.head-title-box .icon-right{
+    margin-left:5rpx;
+}
+.canui-order-item .action-checkbox{
+    margin-right: 20rpx;
+}
+.canui-order-item .cu-list.menu-avatar>.cu-item{
+    padding:0;
+    padding-left:0;
+}
+.canui-order-item .cu-list.menu-avatar>.cu-item>.canui-goods{
+    padding-left:110rpx;
+    height:95rpx;
+}
+.canui-order-item .cu-list.menu-avatar>.cu-item>.canui-goods>.cu-avatar{
+    left:55rpx;
+    position: absolute;
+}
+.canui-order-item .cu-list.menu>.cu-item .content{
+    font-size:27rpx;
+    margin-right:10rpx;
+    height:100%;
+}
+.canui-order-item .cu-list.menu-avatar>.cu-item>.canui-goods .canui-tool{
+    position: relative;
+    margin-top:19rpx;
+}
+.canui-order-item .cu-list.menu-avatar>.cu-item>.canui-goods .canui-tool .action-btn-sum{
+    position:absolute;
+    right:0rpx;
+    flex:right;
+    bottom:-6rpx;
+}
+.canui-tool .text-price{
+    font-size:30rpx;
+}
+.canui-tool .action-btn-sum .cu-btn{
+    float:left;
+    padding:0rpx;
+    height:40rpx;
+    font-size:35rpx;
+    width:50rpx;
+    background:#Fff;
+}
+.canui-tool .action-btn-sum .ca-sum{
+    float:left;
+    width:60rpx;
+    text-align:center;
+    background:#F4F3F5;
+    min-height:40rpx;
+    height:40rpx;
+    font-size:22rpx;
+}
+
+.canui-foor-fixed{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height:85rpx;
+}
+.canui-checked{
+    width:125rpx;
+}
+.canui-checked checkbox{
+    margin-right: 15rpx;
+}
+.cu-bar .action:first-child{
+    font-size:24rpx;
+}
+.canui-checked checkbox::before {
+    margin-top: -7px;
+}
+.canui-delete{
+    width:100rpx;
+}
+.canui-delete .cu-btn{
+    background-color:#fff;
+    font-size:28rpx;
+    color:#666;
+}
+.canui-price{
+    width:400rpx;
+    text-align:right;
+    align-self:stretch;
+    line-height:85rpx;
+    padding-right:20rpx;
+    font-size:26rpx;
+}
+.canui-submit{
+    width:200rpx;
+    align-self:stretch;
+    align-items:center;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    font-size:23rpx;
+}

@@ -1,0 +1,158 @@
+<view class="cu-custom" style="height:{{CustomBar}}px;">
+    <view class="cu-bar fixed none-bg text-white bg-img" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+        <navigator class='action canui-head-title' open-type="navigateBack" hover-class="none">
+            <text class='icon-back'></text> 订单详情
+        </navigator>
+    </view>
+</view>
+<view class="box" style="top:{{CustomBar}}px;">
+    <view class="canui-order-details-head">
+
+        <view class="cu-list menu">
+            <view class="cu-item">
+                <view class='content'>
+                    <view class="text-df">包裹正在运送路上</view>
+                    <view class='text-sm'>2019-03-21 18:00:00</view>
+                </view>
+                <view class='action canui-status-3'></view>
+            </view>
+        </view>
+
+    </view>
+
+    <view class="padding canui-card-fiex-radius-box">
+        <view class="cu-list menu bg-white">
+            <view class="cu-item">
+                <view class='content'>
+                    <view class="canui-xzwz text-df">包裹正在运送路上</view>
+                    <view class='text-gray text-sm'>2019-03-21 18:00:00</view>
+                </view>
+                <view class='action'><view class='text-grey icon-right'></view></view>
+            </view>
+        </view>
+    </view>
+
+    <view class="bg-white canui-goods-box">
+
+        <view class="canui-card-order">
+            <view class="canui-order-item bg-white">
+                <view class="head-title-box">
+                    <navigator open-type="navigate" hover-class='none' url="/pages/shop/index/index">
+                        <text class="icon-shop"></text>
+                        <text>某某某旗舰店铺</text>
+                        <text class="icon-right"></text>
+                    </navigator>
+                </view>
+                <view class="cu-list menu menu-avatar">
+                    <navigator open-type="navigate" class="cu-item" hover-class='none' url="/pages/shop/goods/details">
+                        <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></view>
+                        <view class='content canui-xzwz tow'>商品名称商品名称商品名称商品名称商品名称商品名称</view>
+                        <view class='action'>
+                            <view class='text-price'>20.00</view>
+                            <view class="text-xs text-right text-gray">x1</view>
+                        </view>
+                    </navigator>
+                    <navigator open-type="navigate" class="cu-item" hover-class='none' url="/pages/shop/goods/details">
+                        <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></view>
+                        <view class='content canui-xzwz tow'>商品名称商品名称商品名称商品名称商品名称商品名称</view>
+                        <view class='action'>
+                            <view class='text-price'>20.00</view>
+                            <view class="text-xs text-right text-gray">x1</view>
+                        </view>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+
+        <view class="text-gray text-sm solid-bottom order-price-log">
+            <view class="log-list">
+                <text>商品总价</text> <text class="text-price canui-text-right">252.00</text>
+            </view>
+            <view class="log-list">
+                <text>运费(快递)</text> <text class="text-price canui-text-right">0.00</text>
+            </view>
+            <view class="log-list">
+                <text>会员卡</text> <text class="text-price canui-text-right">0.00</text>
+            </view>
+            <view class="log-list">
+                <text>优惠券</text> <text class="text-price canui-text-right">0.00</text>
+            </view>
+            <view class="log-list">
+                <text>手续费</text> <text class="text-price canui-text-right">5.00</text>
+            </view>
+            <view class="log-list bg-white text-df">
+                <text>订单总价</text><text class="text-sm text-gray">（手续费除外）</text>
+                <text class="text-price canui-text-right">252.00</text>
+            </view>
+        </view>
+        <view class="order-price-log-zj">
+            <text>实际消费积分</text> <text class="text-price canui-text-right text-red">252.00</text>
+        </view>
+        <view class="order-price-log-zj">
+            <text>实付手续费</text> <text class="text-price canui-text-right text-red">5.00</text>
+        </view>
+    </view>
+
+    <view class="margin-top order-address-box">
+        <view class="cu-list menu bg-white">
+            <view class="cu-item">
+                <view class='content'>
+                    <view class="text-df">收货人 <text>13800138000</text></view>
+                    <view class='text-gray text-sm canui-xzwz'>地址：重庆市某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="margin-top bg-white order-details-log">
+
+        <view class="order-menu-list solid-bottom">
+            <view class="log-list bg-white text-df">
+                <text>订单编号：</text> <text class="text-gray">1234567897894</text>
+            </view>
+            <view class="log-list bg-white text-df">
+                <text>下单时间：</text> <text class="text-gray">2019-03-05 09:25:00</text>
+            </view>
+            <view class="log-list bg-white text-df">
+                <text>付款时间：</text> <text class="text-gray">2019-03-05 09:25:00</text>
+            </view>
+        </view>
+        <view class="order-menu-list solid-bottom">
+            <view class="log-list bg-white text-df">
+                <text>快递单号：</text> <text class="text-gray">123456789789</text>
+            </view>
+            <view class="log-list bg-white text-df">
+                <text>快递名称：</text> <text class="text-gray">顺丰快递</text>
+            </view>
+            <view class="log-list bg-white text-df">
+                <text>发货时间：</text> <text class="text-gray">2019-03-05 09:25:00</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="grid col-2 flex bg-white order-contact-box">
+        <view class="contact-table">
+            <text class="icon-service text-blue"></text> 联系客服
+        </view>
+        <view class="contact-table">
+            <text class="icon-phone text-blue"></text> 电话联系
+        </view>
+    </view>
+
+</view>
+
+
+
+<view class="canui-foor-fixed bg-white {{TabbarBot=='y'?'canui-tabbar-bottom':''}}">
+    <view class="grid col-4 flex justify-end order-btn-box">
+        <view class='margin-tb-sm text-center'>
+            <button class='cu-btn round line-gray shadow'>删除订单</button>
+        </view>
+        <view class='margin-tb-sm text-center'>
+            <button class='cu-btn round line-gray shadow'>查看物流</button>
+        </view>
+        <view class='margin-tb-sm text-center'>
+            <button class='cu-btn round line-red shadow'>确认收货</button>
+        </view>
+    </view>
+</view>

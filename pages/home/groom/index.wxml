@@ -1,0 +1,113 @@
+<!--状态栏区域-->
+<view class="cu-custom" style="height:{{CustomBar}}px;">
+    <view class="cu-bar fixed none-bg text-white bg-img" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+        <navigator class='action canui-head-title' open-type="navigateBack" delta="1" hover-class="none">
+            <text class='icon-back'></text> 优选商家
+        </navigator>
+    </view>
+</view>
+
+<view class="box" style="top: {{CustomBar}}px;">
+
+    <navigator hover-class='none' url="">
+        <view class="cu-card case">
+            <view class="cu-item shadow margin-top">
+                <view class="cu-list menu menu-avatar">
+                    <view class="cu-item">
+                        <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></view>
+                        <view class='content'>
+                            <view class='text-black canui-xzwz'>店铺名称店铺</view>
+                            <view class='text-gray text-sm canui-xzwz'> 店铺介绍店铺介绍店铺介绍店铺介绍</view>
+                            <view class='text-orange text-sm canui-xzwz'><text class='icon-location'></text> 重庆市渝北区渝北区渝北区11号</view>
+                        </view>
+                        <view class='action'>
+                            <button class='cu-btn bg-gradual-green shadow-blur radius'>进店</button>
+                        </view>
+                    </view>
+                    <view class="canui-duotu">
+                        <view class="canui-dtimg-a">
+                            <view class="canui-dtimg-content">
+                                <image src="https://image.weilanwl.com/img/4x3-3.jpg" mode="aspectFill"></image>
+                                <view class="text-sm canui-dtimg-text">
+                                    <view class="text-white canui-xzwz">商品名称商品名称商品名称商品名称</view>
+                                    <view class="text-price text-red">60000</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="canui-dtimg-b">
+                            <view class="canui-dtimg-ba">
+                                <view class="canui-dtimg-content">
+                                    <image src="https://image.weilanwl.com/img/4x3-3.jpg" mode="aspectFill"></image>
+                                    <view class="text-sm canui-dtimg-text">
+                                        <view class="text-white canui-xzwz">商品名称</view>
+                                        <view class="text-price text-red">60</view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="canui-dtimg-bb">
+                                <view class="canui-dtimg-content">
+                                    <image src="https://image.weilanwl.com/img/4x3-3.jpg" mode="aspectFill"></image>
+                                    <view class="text-sm canui-dtimg-text">
+                                        <view class="text-white canui-xzwz">商品名称商品名称商品名称商品名称</view>
+                                        <view class="text-price text-red">60000</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </navigator>
+
+    <navigator hover-class='none' url="">
+        <view class="cu-card case">
+            <view class="cu-item shadow">
+                <view class="cu-list menu menu-avatar">
+                    <view class="cu-item">
+                        <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></view>
+                        <view class='content'>
+                            <view class='text-black canui-xzwz'>店铺名称店铺</view>
+                            <view class='text-gray text-sm canui-xzwz'> 店铺介绍店铺介绍店铺介绍店铺介绍</view>
+                            <view class='text-orange text-sm canui-xzwz'><text class='icon-location'></text> 重庆市渝北区渝北区渝北区11号</view>
+                        </view>
+                        <view class='action'>
+                            <button class='cu-btn bg-gradual-green shadow-blur radius'>进店</button>
+                        </view>
+                    </view>
+                    <view class="canui-duotu">
+                        <view class="canui-dtimg-a">
+                            <view class="canui-dtimg-content">
+                                <image src="https://image.weilanwl.com/img/4x3-3.jpg" mode="aspectFill"></image>
+                                <view class="text-sm canui-dtimg-text">
+                                    <view class="text-white canui-xzwz">商品名称商品名称商品名称商品名称</view>
+                                    <view class="text-price text-red">60000</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="canui-dtimg-b">
+                            <view class="canui-dtimg-ba">
+                                <view class="canui-dtimg-content">
+                                    <image src="https://image.weilanwl.com/img/4x3-3.jpg" mode="aspectFill"></image>
+                                    <view class="text-sm canui-dtimg-text">
+                                        <view class="text-white canui-xzwz">商品名称</view>
+                                        <view class="text-price text-red">60</view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="canui-dtimg-bb">
+                                <view class="canui-dtimg-content">
+                                    <image src="https://image.weilanwl.com/img/4x3-3.jpg" mode="aspectFill"></image>
+                                    <view class="text-sm canui-dtimg-text">
+                                        <view class="text-white canui-xzwz">商品名称商品名称商品名称商品名称</view>
+                                        <view class="text-price text-red">60000</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </navigator>
+</view>

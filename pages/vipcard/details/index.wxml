@@ -1,0 +1,87 @@
+<view class="cu-custom" style="height:{{CustomBar}}px;">
+    <view class="cu-bar fixed none-bg text-white bg-img" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+        <navigator class='action canui-head-title' open-type="navigateBack" hover-class="none">
+            <text class='icon-back'></text> 会员卡
+        </navigator>
+    </view>
+</view>
+
+<view class="box" style="top: {{CustomBar}}px;">
+
+    <view class="canui-card margin-top">
+        <view class="canui-item">
+            <view class="canui-card-bg-img radius shadow-warp" style="background-image: url('https://cdn.nlark.com/yuque/0/2019/jpeg/285274/1552962638649-assets/web-upload/25d4b7d6-e41b-431d-9b5b-43fa3b575b39.jpeg')">
+                <view class='bg-shadeTop radius'>
+                    <view class="canui-card-head">
+                        <view class="cu-avatar round" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></view>
+                        <text class="canui-card-name">某某某店铺会员卡</text>
+                    </view>
+                    <view class="canui-card-time-box">
+                        <text class="canui-card-time">有效期：无限期</text>
+                        <text class="canui-card-status">使用中</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="cu-list grid col-3 no-border">
+        <view class="cu-item">
+            <view> 可用余额 </view>
+            <text> 1000.00 </text>
+        </view>
+        <view class="cu-item">
+            <view> 享受折扣 </view>
+            <text> 无折扣 </text>
+        </view>
+        <view class="cu-item">
+            <view> 会员等级 </view>
+            <text class="icon-vip"> 1 </text>
+        </view>
+    </view>
+
+    <view class="padding flex flex-direction">
+        <button class='cu-btn line-red lg'>去使用</button>
+    </view>
+
+    <view class="cu-list menu sm-border margin-top solid-bottom">
+
+        <view class="cu-item solid-top">
+            <view class='content'>
+                <text class='text-black'>会员卡号</text>
+            </view>
+            <view class='action'>
+                <text class='text-gray text-sm'>20888012345687454</text>
+            </view>
+        </view>
+
+        <view class="cu-item arrow">
+            <view class='content'>
+                <text class='text-black'>使用记录</text>
+            </view>
+            <view class='action'>
+                <text class='text-gray text-sm'>查看记录</text>
+            </view>
+        </view>
+
+        <view class="cu-item arrow">
+            <view class='content'>
+                <text class='text-black'>店铺主页</text>
+            </view>
+            <view class='action'>
+                <text class='text-gray text-sm'>查看店铺</text>
+            </view>
+        </view>
+
+        <view class="cu-item arrow">
+            <view class='content'>
+                <text class='text-black'>客服电话</text>
+            </view>
+            <view class='action'>
+                <text class='text-gray text-sm'>123456789</text>
+            </view>
+        </view>
+
+    </view>
+
+</view>

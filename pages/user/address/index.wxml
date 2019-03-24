@@ -1,0 +1,44 @@
+<!--状态栏区域-->
+<view class="cu-custom" style="height:{{CustomBar}}px;">
+    <view class="cu-bar fixed none-bg text-white bg-img" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+        <navigator class='action canui-head-title' open-type="navigateBack" hover-class="none">
+            <text class='icon-back'></text> 地址管理
+        </navigator>
+    </view>
+</view>
+
+<view class="box" style="top: {{CustomBar}}px;">
+
+    <view class="cu-list menu bg-white">
+        <view class="cu-item">
+            <view class='content'>
+                <view class="text-df">收货人 <text>138****8000</text> <view class='cu-tag bg-red round'>默认</view></view>
+                <view class='text-gray text-sm canui-xzwz'>重庆市某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某</view>
+            </view>
+            <view class='action'><view class='text-grey icon-write'></view></view>
+        </view>
+        <view class="cu-item">
+            <view class='content'>
+                <view class="text-df">收货人 <text>138****8000</text></view>
+                <view class='text-gray text-sm canui-xzwz'>重庆市某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某</view>
+            </view>
+            <view class='action'><view class='text-grey icon-write'></view></view>
+        </view>
+        <view class="cu-item">
+            <view class='content'>
+                <view class="text-df">收货人 <text>138****8000</text></view>
+                <view class='text-gray text-sm canui-xzwz'>重庆市某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某某</view>
+            </view>
+            <view class='action'><view class='text-grey icon-write'></view></view>
+        </view>
+    </view>
+
+
+
+</view>
+
+<view class="canui-foor-fixed {{TabbarBot=='y'?'canui-tabbar-bottom':''}}">
+    <button class="cu-btn canui-color-gradual shadow-blur round lg" bindtap='add'><text class="icon-add"></text> 新增收货地址</button>
+</view>
+
+

@@ -1,0 +1,91 @@
+page {
+    padding-top: 50px;
+    padding-bottom:170rpx;
+    background:#fff;
+}
+.cu-custom{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.cu-custom .cu-bar{
+    padding-right:inherit;
+    background-image:linear-gradient(45deg, #ff9700, #ed1c24);
+}
+.box{
+    position: absolute;
+    top: 64px;
+    width: 100%;
+}
+
+.canui-card{
+    padding:0 20rpx;
+}
+.canui-card .canui-item{
+    margin-bottom:30rpx;
+}
+.canui-card-bg-img {
+    font-variant:small-caps;
+    margin:0;
+    padding:0;
+    display:inline-flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    background:#ccc;
+    color:#fff;
+    white-space:nowrap;
+    position:relative;
+    width:100%;
+    height:280rpx;
+    background-size:cover;
+    background-position:center;
+    vertical-align:middle;
+    font-size:26rpx;
+}
+.bg-shadeTop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+    color:#fff;
+    width:100%;
+    height:100%;
+}
+.canui-card-head{
+    text-align:left;
+    padding:30rpx;
+    position:relative;
+    padding-top:50rpx;
+}
+.canui-card-head .cu-avatar {
+    border:1rpx solid #fff;
+}
+.canui-card-head .canui-card-name{
+    position: relative;
+    margin-left:20rpx;
+    font-size:30rpx;
+    top:5rpx;
+}
+.canui-card-time-box{
+    position:absolute;
+    text-align:left;
+    padding:30rpx;
+    bottom:20rpx;
+    width:100%;
+}
+.canui-card-time{
+    width:auto;
+}
+.canui-card-status{
+    float:right;
+    text-align:right;
+}
+.cu-list.grid>.cu-item text{
+    color: #e54d42;
+    font-size:28rpx;
+}
+.cu-list.grid>.cu-item [class*="icon"]{
+    font-size:28rpx;
+    margin-top:10rpx;
+}
+.cu-list.grid>.cu-item + .cu-item{
+    border-left:1px solid #f1f1f1;
+}

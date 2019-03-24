@@ -1,0 +1,127 @@
+<view class="cu-custom" style="height:{{CustomBar}}px;">
+    <view class="cu-bar fixed none-bg text-white bg-img" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+        <view class="head-title canui-head-title">购物车</view>
+    </view>
+</view>
+
+<view class="box"  style="top:{{CustomBar}}px;">
+    <view class="canui-kong" style="display: none;">
+        <view class="bg-gradual-orange padding radius text-center shadow-blur canui-kong-icon">
+            <text class="icon-cart"></text>
+        </view>
+
+        <view class="text-lg padding text-center">
+            <text class="text-grey"> 购物车竟然是空的 </text>
+        </view>
+
+        <view class="padding flex flex-wrap justify-between align-center">
+            <button class='cu-btn bg-gradual-green shadow-blur round'>去逛逛</button>
+        </view>
+
+    </view>
+
+
+
+    <view class="canui-card-order margin-top">
+
+        <view class="canui-order-item bg-white">
+            <view class="head-title-box">
+                <checkbox class='round red' checked></checkbox>
+                <text class="icon-shop"></text>
+                <text>某某某旗舰店铺</text>
+                <text class="icon-right"></text>
+            </view>
+            <view class="cu-list menu menu-avatar">
+
+                <view class="cu-item">
+                    <view class='action-checkbox'>
+                        <checkbox class='round red' checked></checkbox>
+                    </view>
+                    <view class="canui-goods">
+                        <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></view>
+                        <view class='content'>
+                            <view class='canui-xzwz'>商品名称商品名称商品名称商品名称商品名称商品名称</view>
+                            <view class='canui-tool'>
+                                <text class='text-price text-red'>20.00</text>
+                                <view class='action-btn-sum'>
+                                    <button class='cu-btn'>-</button>
+                                    <input class='ca-sum' name='input' value="1"></input>
+                                    <button class='cu-btn'>+</button>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+
+                <view class="cu-item">
+                    <view class='action-checkbox'>
+                        <checkbox class='round red' checked></checkbox>
+                    </view>
+                    <view class="canui-goods">
+                        <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></view>
+                        <view class='content'>
+                            <view class='canui-xzwz'>商品名称商品名称商品名称商品名称商品名称商品名称</view>
+                            <view class='canui-tool'>
+                                <text class='text-price text-red'>20.00</text>
+                                <view class='action-btn-sum'>
+                                    <button class='cu-btn'>-</button>
+                                    <input class='ca-sum' name='input' value="1"></input>
+                                    <button class='cu-btn'>+</button>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+
+            </view>
+        </view>
+
+        <view class="canui-order-item bg-white">
+            <view class="head-title-box">
+                <checkbox class='round red' checked></checkbox>
+                <text class="icon-shop"></text>
+                <text>某某某旗舰店铺</text>
+                <text class="icon-right"></text>
+            </view>
+            <view class="cu-list menu menu-avatar">
+
+                <view class="cu-item">
+                    <view class='action-checkbox'>
+                        <checkbox class='round red' checked></checkbox>
+                    </view>
+                    <view class="canui-goods">
+                        <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></view>
+                        <view class='content'>
+                            <view class='canui-xzwz'>商品名称商品名称商品名称商品名称商品名称商品名称</view>
+                            <view class='canui-tool'>
+                                <text class='text-price text-red'>20.00</text>
+                                <view class='action-btn-sum'>
+                                    <button class='cu-btn'>-</button>
+                                    <input class='ca-sum' name='input' value="1"></input>
+                                    <button class='cu-btn'>+</button>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+
+            </view>
+        </view>
+
+    </view>
+
+</view>
+
+<view class="cu-bar bg-white solid-bottom canui-foor-fixed">
+    <view class="action canui-checked"> <checkbox class='round red' checked></checkbox> 全选</view>
+    <view class="action canui-delete"> <button class='cu-btn icon-delete'></button> </view>
+    <view class='submit canui-price'>合计 <text class="text-red text-price">200.00</text></view>
+    <view class='bg-red submit canui-submit' bindtap='submit'>去结算 ( 2 )</view>
+</view>
+
+<!--
+<view class='action-btn-sum'>
+    <button class='cu-btn'>-</button>
+    <input class='ca-sum' name='input' value="1"></input>
+    <button class='cu-btn'>+</button>
+</view>-->

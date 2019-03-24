@@ -1,0 +1,49 @@
+<!--状态栏区域-->
+<view class="cu-custom" style="height:{{CustomBar}}px;">
+    <view class="cu-bar fixed none-bg text-white bg-img" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+        <navigator class='action canui-head-title' open-type="navigateBack" hover-class="none">
+            <text class='icon-back'></text> 优惠券
+        </navigator>
+    </view>
+</view>
+
+<view class="box" style="top: {{CustomBar}}px;">
+
+    <scroll-view scroll-x class="bg-white nav">
+        <view class='flex text-center'>
+            <view class="cu-item flex-sub {{item.id==TabCur?'text-red cur':''}}" wx:for="{{SortMenu}}" wx:key="item.id" bindtap='tabSelect' data-id="{{item.id}}">
+                {{item.name}}
+            </view>
+        </view>
+    </scroll-view>
+
+    <view class="cu-card article">
+
+        <view class="cu-item shadow">
+            <view class="content">
+                <view class="canui-left-box canui-color-gradual">
+                    <view class="text-price canui-co-xl-price">5.00</view>
+                    <view class="canui-co-price">满任意金额可用</view>
+                </view>
+                <view class="desc">
+                    <view class="canui-co-name">优惠券</view>
+                    <view class="canui-co-time text-gray">2019-03-21 到 2019-03-24</view>
+                </view>
+            </view>
+        </view>
+
+        <view class="cu-item shadow">
+            <view class="content">
+                <view class="canui-left-box canui-color-gradual">
+                    <view class="text-price canui-co-xl-price">50.00</view>
+                    <view class="canui-co-price">满 5000元 可用</view>
+                </view>
+                <view class="desc">
+                    <view class="canui-co-name">优惠券</view>
+                    <view class="canui-co-time text-gray">2019-03-21 到 2019-03-24</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+</view>

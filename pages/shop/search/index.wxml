@@ -1,0 +1,48 @@
+<!--状态栏区域-->
+<view class="cu-custom" style="height:{{CustomBar}}px;">
+    <view class="cu-bar fixed none-bg text-white bg-img" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+        <navigator class='action canui-head-title' open-type="navigateBack" hover-class="none">
+            <text class='icon-back'></text> 搜索结果
+        </navigator>
+    </view>
+</view>
+
+<view class="cu-bar bg-white search fixed" style="top:{{CustomBar}}px;">
+    <view class='search-form round'>
+        <text class="icon-search"></text>
+        <input type="text" placeholder="输入关键词" confirm-type="search"></input>
+    </view>
+    <view class='action'>
+        <button class='cu-btn canui-color-gradual shadow-blur round' bindtap="search">搜索</button>
+    </view>
+</view>
+
+<view class="bg-white canui-goods-list" style="top:{{CustomBar + 6}}px;">
+    <view class="cu-list menu menu-avatar">
+
+        <view class="cu-item ">
+            <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></view>
+            <view class='content'>
+                <view class="canui-xzwz">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</view>
+                <view class='text-red text-sm text-price'>35.00</view>
+            </view>
+        </view>
+        <view class="cu-item ">
+            <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></view>
+            <view class='content'>
+                <view class="canui-xzwz">商品名称商品名称商品名称商品名称商品名称</view>
+                <view class='text-red text-sm text-price'>35.00</view>
+            </view>
+        </view>
+        <view class="cu-item ">
+            <view class="cu-avatar radius lg" style="background-image:url(https://image.weilanwl.com/img/square-3.jpg);"></view>
+            <view class='content'>
+                <view class="canui-xzwz">商品名称商品名称商品名称</view>
+                <view class='text-red text-sm text-price'>35.00</view>
+            </view>
+        </view>
+
+    </view>
+</view>
+
+

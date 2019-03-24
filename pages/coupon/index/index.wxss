@@ -1,0 +1,46 @@
+page {
+    padding-top: 50px;
+    padding-bottom:170rpx;
+}
+.cu-custom{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.cu-custom .cu-bar{
+    padding-right:inherit;
+    background-image:linear-gradient(45deg, #ff9700, #ed1c24);
+}
+.box{
+    position: absolute;
+    top: 64px;
+    width: 100%;
+}
+
+.cu-card.article>.cu-item {
+    padding-bottom:0rpx;
+}
+.cu-card.article>.cu-item .content {
+    padding:0;
+}
+.cu-card.article>.cu-item .content>.canui-left-box{
+    width:240rpx;
+    height:6.4em;
+    margin-right:20rpx;
+    text-align:center;
+}
+.canui-left-box .canui-co-xl-price{
+    font-size:50rpx;
+    margin-top:1em;
+    line-height:1.2em;
+}
+.canui-left-box .canui-co-price{
+    font-size:22rpx;
+    color: #f1f1f1;
+}
+.cu-card.article>.cu-item .content .desc {
+    padding:30rpx 0;
+}
+.canui-co-time{
+    font-size:25rpx;
+}
