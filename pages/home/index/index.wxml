@@ -1,7 +1,7 @@
 <!--状态栏区域-->
 <view class="cu-custom" style="height:{{CustomBar}}px;">
     <view class="cu-bar fixed none-bg text-white bg-img" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
-        <view class="head-title canui-head-title">易汇天下</view>
+        <view class="head-title canui-head-title">shop</view>
     </view>
 </view>
 
