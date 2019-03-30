@@ -9,6 +9,7 @@
 
 
 ColorUI框架的GIT：https://github.com/weilanwl/ColorUI
+（由于本人最近比较忙，还没来得及更新UI框架到最新版，如有问题，可自行先解决，等我忙完后，再好好更新下此项目）
 
 
 如有问题，请在ColorUI官方QQ交流群里，@仔仔 - 专业打杂
