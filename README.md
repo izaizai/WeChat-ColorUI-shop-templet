@@ -9,12 +9,12 @@
 
 
 ColorUI框架的GIT：https://github.com/weilanwl/ColorUI
-（由于本人最近比较忙，还没来得及更新UI框架到最新版，如有问题，可自行先解决，等我忙完后，再好好更新下此项目）
+（此项目使用的2.0.7版本的UI框架）
 
+此项目部打算更新，因为ColorUI作者已经在开始做ColorShop完整模板。
+下面是ColorUI的第一次曝光图
+![](https://cdn.nlark.com/yuque/0/2019/jpeg/285274/1554369274314-assets/web-upload/2af6103f-4100-404e-8a6f-3ecc0040bdae.jpeg)
 
 如有问题，请在ColorUI官方QQ交流群里，@仔仔 - 专业打杂
-
-
-或者提交issues即可
 
 
