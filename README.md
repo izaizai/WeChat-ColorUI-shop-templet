@@ -5,15 +5,12 @@
 
 图片效果查看：https://www.yuque.com/itianc/ui/artboards/61558
 
+###新发布了一个基于uni-app开发的仿转转商城APP的模板，有兴趣的朋友，可以去看看：https://ext.dcloud.net.cn/plugin?id=1531
+
 ColorUI框架的GIT：https://github.com/weilanwl/ColorUI
 （此项目使用的2.0.7版本的UI框架）
 
-此项目不再进行更新，因为ColorUI作者已经在开始做ColorShop完整模板。
--
-下面是ColorUI作者放的Shop效果图
--
-
-![](https://cdn.nlark.com/yuque/0/2019/jpeg/285274/1554369274314-assets/web-upload/2af6103f-4100-404e-8a6f-3ecc0040bdae.jpeg)
+此项目不再进行更新，因为ColorUI作者已经做了ColorShop完整模板。
+可在colorui的QQ交流群的群文件里下载colorui作者开发的colorshop模板。
 
 如有问题，请在ColorUI官方QQ交流群里，@仔仔 - 专业打杂
-
