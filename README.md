@@ -5,7 +5,7 @@
 
 图片效果查看：https://www.yuque.com/itianc/ui/artboards/61558
 
-###新发布了一个基于uni-app开发的仿转转商城APP的模板，有兴趣的朋友，可以去看看：https://ext.dcloud.net.cn/plugin?id=1531
+### 新发布了一个基于uni-app开发的仿转转商城APP的模板，有兴趣的朋友，可以去看看：https://ext.dcloud.net.cn/plugin?id=1531
 
 ColorUI框架的GIT：https://github.com/weilanwl/ColorUI
 （此项目使用的2.0.7版本的UI框架）
