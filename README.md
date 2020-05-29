@@ -10,9 +10,7 @@
 ColorUI框架的GIT：https://github.com/weilanwl/ColorUI
 （此项目使用的2.0.7版本的UI框架）
 
-此项目准备再次进行更新（重构小程序版），
-
-虽然ColorUI作者已经做了ColorShop完整模板，但是，只做了uni-app版，未做小程序版。
+此项目不再更新，ColorUI作者已经做了ColorShop完整模板。
 
 如需colorshop模板，可在colorui的QQ交流群的群文件里下载colorui作者开发的colorshop模板。
 
